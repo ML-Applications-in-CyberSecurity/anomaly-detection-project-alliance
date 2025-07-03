@@ -1,0 +1,43 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+*.nbconvert.ipynb
+*.nbconvert/
+*.nbconvert.html
+*.nbconvert.log
+
+# VSCode or PyCharm or other editor settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment or config files
+.env
+*.env
+
+# pip freeze files
+pip-log.txt
+
+# Jupyter lab workspaces
+.jupyter/lab/workspaces/
+
+# Hidden files or metadata
+*.swp
+*~
