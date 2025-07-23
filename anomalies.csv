@@ -1,0 +1,17 @@
+Timestamp,Data,Label,Reason
+2025-07-23 14:34:36.618978,"{'src_port': 8080, 'dst_port': 9535, 'packet_size': 1300, 'duration_ms': 51, 'protocol': 'UDP'}",Unknown Anomaly,Unknown cause
+2025-07-23 14:36:13.202655,"{'src_port': 8080, 'dst_port': 51015, 'packet_size': 124, 'duration_ms': 68, 'protocol': 'TCP'}",** Short-lived Connection,Unknown cause
+2025-07-23 15:08:13.924549,"{'src_port': 8080, 'dst_port': 5889, 'packet_size': 1316, 'duration_ms': 453, 'protocol': 'UDP'}",**,"**  
+- **Malicious Activity:** The traffic could indicate an attacker probing the network to identify open ports or vulnerable services, particularly on the destination port 5889. The packet size of 1316 bytes might be part of a payload intended to exploit vulnerabilities, such as buffer overflow attempts.
+
+**Considerations:**  
+- The source port 8080 is commonly associated with web applications, which might be the target or source of the anomaly.
+- The destination port 5889 is non-standard, suggesting it could be used by a specific service that an attacker is targeting.
+
+In conclusion, the traffic likely represents a potential security threat, possibly a DDoS attack or a reconnaissance effort by an attacker. Further investigation into the context and volume of similar traffic is recommended to confirm the nature of the anomaly."
+2025-07-23 15:10:02.255803,"{'src_port': 8080, 'dst_port': 6018, 'packet_size': 1465, 'duration_ms': 291, 'protocol': 'UDP'}",Unknown Anomaly,Unknown cause
+2025-07-23 15:10:38.118344,"{'src_port': 9999, 'dst_port': 62155, 'packet_size': 172, 'duration_ms': 81, 'protocol': 'TCP'}",Unknown Anomaly,Unknown cause
+2025-07-23 15:15:55.718407,"{'src_port': 8080, 'dst_port': 3561, 'packet_size': 1370, 'duration_ms': 385, 'protocol': 'UDP'}",Unknown Anomaly,Unknown cause
+2025-07-23 15:31:12.018701,"{'src_port': 6666, 'dst_port': 63350, 'packet_size': 143, 'duration_ms': 65, 'protocol': 'TCP'}",Unknown Anomaly,Unknown cause,-0.0171
+2025-07-23 15:34:39.944472,"{'src_port': 9999, 'dst_port': 64462, 'packet_size': 1080, 'duration_ms': 488, 'protocol': 'TCP'}",Unknown Anomaly,Unknown cause,-0.0129
+2025-07-23 15:35:23.303442,"{'src_port': 8080, 'dst_port': 2259, 'packet_size': 473, 'duration_ms': 483, 'protocol': 'TCP'}",Unknown Anomaly,"** The traffic is likely associated with malicious activity, such as a Trojan or backdoor communication, using port 2259 to evade detection. This port is not commonly used for standard services, suggesting it might be employed by malware for covert communication.",-0.0102
