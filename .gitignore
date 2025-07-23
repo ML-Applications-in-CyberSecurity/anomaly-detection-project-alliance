@@ -41,3 +41,4 @@ pip-log.txt
 # Hidden files or metadata
 *.swp
 *~
+*.csv
